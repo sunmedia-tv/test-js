@@ -1,4 +1,4 @@
-# Prueba 1
+# Ejercicio 1
 
 El fragmento de código de nuestro fichero `test.js` nos devuelve un output no 
 deseado. Queremos imprimir un valor incremental a cada segundo pero lo que 

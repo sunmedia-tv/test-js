@@ -1,4 +1,4 @@
-# Prueba 3
+# Ejercicio 3
 
 Esta prueba consiste en escribir un código de control de flujo asíncrono.
 
