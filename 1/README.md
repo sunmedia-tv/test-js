@@ -1,18 +1,18 @@
-# Test 1
+# Prueba 1
 
-Para responder a este test encontrarás un archivo llamado `test.js` en esta 
-misma carpeta donde hay un pequeño fragmento de código que deberás analizar 
-y responder a las siguientes cuestiones. 
+El fragmento de código de nuestro fichero `test.js` nos devuelve un output no 
+deseado. Queremos imprimir un valor incremental a cada segundo pero lo que 
+nos devuelve el código es el mismo valor en cada iteración. 
 
-1. En el fragmento de código de nuestro archivo (`test.js`) podemos encontrar
- hasta 3 variables. ¿Podrías decirnos cuál sería el valor de todas ellas al 
- finalizar la ejecución del script?
-2. Modifica el código para que las variables `rgb` y `wb` mantengan sus valores 
-iniciales y `colors` tenga los valores de ambas al finalizar la ejecución del 
-script.
-3. Además, tenemos un bug localizado en dispositivos con Internet Explorer… 
-El código de nuestro script no funciona y necesitamos que se ejecute también 
-en este navegador. ¿Sabrías identificar cuál es el problema? ¿Qué solución nos
- propones?
+1. Sin necesidad de ejecutar el código, ¿sabrías decirnos qué valor imprimiría
+ por consola el script? ¿Cuál es el motivo?
+2. Sabiendo que el output que buscamos es el que encuentras bajo estas líneas… 
+¿Cómo solucionarías el fragmento de código para que el output sea el deseado?
 
-**PS**: No es estrictamente necesario tener Internet Explorer para poder identificar y/o resolver el bug. 
+```
+    > 0
+    > 1
+    > 2
+    > 3
+    > 4
+```
