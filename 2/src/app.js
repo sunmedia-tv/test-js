@@ -3,15 +3,17 @@ import EventManagerFactory from './EventManagerFactory';
 
 let onReadyStateChange = function (onSuccess) {
     return function () {
-        if (this.readyState === 4 && this.status === 200) {
+        const { readyState, status } = this;
+
+        if (readyState === 4 && status === 200) {
             let response = JSON.parse(xhttp.responseText);
             onSuccess(response);
         }
     }
 };
 
-const onSuccess = function (response) {
-    const eventManager = EventManagerFactory.create(response.events, response.types);
+const onSuccess = function ({ events, types }) {
+    const eventManager = EventManagerFactory.create(events, types);
     eventManager.run();
 };
 

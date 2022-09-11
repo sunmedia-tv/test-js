@@ -1,3 +1,15 @@
 export default class Event{
-// implement your code here...
+
+    constructor(second, type, message) {
+        this.second = second;
+        this.type = type;
+        this.message = message;
+    }
+    
+      //* Ejecutamos el evento en el tiempo indicado
+      execute() {
+        const { second , type, message } = this;
+
+        console.log(`At second ${second}: {type: "${type}", message: "${message}"}`);
+      }
 };
